@@ -1,0 +1,1435 @@
+{
+  "location": {
+    "name": "Oaxaca",
+    "region": "Oaxaca",
+    "country": "Mexico",
+    "lat": 17.07,
+    "lon": -96.72,
+    "tz_id": "America/Mexico_City",
+    "localtime_epoch": 1697597260,
+    "localtime": "2023-10-17 20:47"
+  },
+  "current": {
+    "last_updated": "2023-10-17 20:45",
+    "temp_c": 14.5,
+    "is_day": 0,
+    "condition": {
+      "text": "Parcialmente nublado",
+      "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+      "code": 1003
+    },
+    "wind_kph": 9,
+    "wind_degree": 30,
+    "wind_dir": "NNE",
+    "precip_mm": 0,
+    "precip_in": 0,
+    "humidity": 78,
+    "cloud": 25,
+    "feelslike_c": 14.1,
+    "feelslike_f": 57.4,
+    "vis_km": 10,
+    "vis_miles": 6,
+    "uv": 1,
+    "gust_mph": 6.6,
+    "gust_kph": 10.6
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2023-10-17",
+        "date_epoch": 1697500800,
+        "day": {
+          "maxtemp_c": 20.3,
+          "mintemp_c": 11,
+          "maxwind_kph": 9.7,
+          "totalprecip_mm": 0.16,
+          "totalprecip_in": 0.01,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 88,
+          "daily_will_it_snow": 0,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Lluvia  moderada a intervalos",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          }
+        },
+        "astro": {
+          "sunrise": "07:20 AM",
+          "sunset": "07:04 PM",
+          "moonrise": "09:51 AM",
+          "moonset": "09:13 PM",
+          "moon_phase": "Waxing Crescent",
+          "moon_illumination": "5",
+          "is_moon_up": 1,
+          "is_sun_up": 1
+        },
+        "hour": [
+          {
+            "time_epoch": 1697522400,
+            "time": "2023-10-17 00:00",
+            "temp_c": 12.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_kph": 7.2,
+            "wind_degree": 358,
+            "wind_dir": "N",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 88,
+            "cloud": 80
+          },
+          {
+            "time_epoch": 1697526000,
+            "time": "2023-10-17 01:00",
+            "temp_c": 11.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_kph": 6.8,
+            "wind_degree": 0,
+            "wind_dir": "N",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 89,
+            "cloud": 76
+          },
+          {
+            "time_epoch": 1697529600,
+            "time": "2023-10-17 02:00",
+            "temp_c": 11.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.2,
+            "wind_degree": 356,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 88,
+            "cloud": 26
+          },
+          {
+            "time_epoch": 1697533200,
+            "time": "2023-10-17 03:00",
+            "temp_c": 11.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 6.1,
+            "wind_degree": 354,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697536800,
+            "time": "2023-10-17 04:00",
+            "temp_c": 12.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_kph": 6.5,
+            "wind_degree": 2,
+            "wind_dir": "N",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 86,
+            "cloud": 83
+          },
+          {
+            "time_epoch": 1697540400,
+            "time": "2023-10-17 05:00",
+            "temp_c": 12,
+            "is_day": 0,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_kph": 7.2,
+            "wind_degree": 11,
+            "wind_dir": "NNE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 86
+          },
+          {
+            "time_epoch": 1697544000,
+            "time": "2023-10-17 06:00",
+            "temp_c": 11.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 7.6,
+            "wind_degree": 16,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697547600,
+            "time": "2023-10-17 07:00",
+            "temp_c": 11.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.9,
+            "wind_degree": 15,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697551200,
+            "time": "2023-10-17 08:00",
+            "temp_c": 11,
+            "is_day": 1,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_kph": 8.3,
+            "wind_degree": 10,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 29
+          },
+          {
+            "time_epoch": 1697554800,
+            "time": "2023-10-17 09:00",
+            "temp_c": 13.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 9,
+            "wind_degree": 15,
+            "wind_dir": "NNE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 83,
+            "cloud": 81
+          },
+          {
+            "time_epoch": 1697558400,
+            "time": "2023-10-17 10:00",
+            "temp_c": 15.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 8.3,
+            "wind_degree": 29,
+            "wind_dir": "NNE",
+            "precip_mm": 0.02,
+            "precip_in": 0,
+            "humidity": 79,
+            "cloud": 75
+          },
+          {
+            "time_epoch": 1697562000,
+            "time": "2023-10-17 11:00",
+            "temp_c": 16.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 8.6,
+            "wind_degree": 40,
+            "wind_dir": "NE",
+            "precip_mm": 0.03,
+            "precip_in": 0,
+            "humidity": 73,
+            "cloud": 81
+          },
+          {
+            "time_epoch": 1697565600,
+            "time": "2023-10-17 12:00",
+            "temp_c": 17.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 9.4,
+            "wind_degree": 33,
+            "wind_dir": "NNE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 71,
+            "cloud": 77
+          },
+          {
+            "time_epoch": 1697569200,
+            "time": "2023-10-17 13:00",
+            "temp_c": 17.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 9.4,
+            "wind_degree": 32,
+            "wind_dir": "NNE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 67,
+            "cloud": 80
+          },
+          {
+            "time_epoch": 1697572800,
+            "time": "2023-10-17 14:00",
+            "temp_c": 18.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 7.6,
+            "wind_degree": 40,
+            "wind_dir": "NE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 63,
+            "cloud": 81
+          },
+          {
+            "time_epoch": 1697576400,
+            "time": "2023-10-17 15:00",
+            "temp_c": 20,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 6.1,
+            "wind_degree": 47,
+            "wind_dir": "NE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 58,
+            "cloud": 77
+          },
+          {
+            "time_epoch": 1697580000,
+            "time": "2023-10-17 16:00",
+            "temp_c": 20.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 6.1,
+            "wind_degree": 45,
+            "wind_dir": "NE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 57,
+            "cloud": 64
+          },
+          {
+            "time_epoch": 1697583600,
+            "time": "2023-10-17 17:00",
+            "temp_c": 19.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.9,
+            "wind_degree": 45,
+            "wind_dir": "NE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 59,
+            "cloud": 49
+          },
+          {
+            "time_epoch": 1697587200,
+            "time": "2023-10-17 18:00",
+            "temp_c": 18.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_kph": 9.7,
+            "wind_degree": 48,
+            "wind_dir": "NE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 66,
+            "cloud": 47
+          },
+          {
+            "time_epoch": 1697590800,
+            "time": "2023-10-17 19:00",
+            "temp_c": 16.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_kph": 9.7,
+            "wind_degree": 36,
+            "wind_dir": "NE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 74,
+            "cloud": 31
+          },
+          {
+            "time_epoch": 1697594400,
+            "time": "2023-10-17 20:00",
+            "temp_c": 14.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 9,
+            "wind_degree": 30,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 78,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697598000,
+            "time": "2023-10-17 21:00",
+            "temp_c": 12.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 8.6,
+            "wind_degree": 20,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 84,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697601600,
+            "time": "2023-10-17 22:00",
+            "temp_c": 12.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.9,
+            "wind_degree": 17,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 86,
+            "cloud": 33
+          },
+          {
+            "time_epoch": 1697605200,
+            "time": "2023-10-17 23:00",
+            "temp_c": 11.7,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.2,
+            "wind_degree": 11,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 86,
+            "cloud": 35
+          }
+        ]
+      },
+      {
+        "date": "2023-10-18",
+        "date_epoch": 1697587200,
+        "day": {
+          "maxtemp_c": 23.3,
+          "mintemp_c": 10.5,
+          "maxwind_kph": 7.6,
+          "totalprecip_mm": 0.06,
+          "totalprecip_in": 0,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 0,
+          "daily_chance_of_rain": 0,
+          "daily_will_it_snow": 0,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Parcialmente nublado",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+            "code": 1003
+          }
+        },
+        "astro": {
+          "sunrise": "07:21 AM",
+          "sunset": "07:03 PM",
+          "moonrise": "10:50 AM",
+          "moonset": "10:04 PM",
+          "moon_phase": "Waxing Crescent",
+          "moon_illumination": "11",
+          "is_moon_up": 1,
+          "is_sun_up": 1
+        },
+        "hour": [
+          {
+            "time_epoch": 1697608800,
+            "time": "2023-10-18 00:00",
+            "temp_c": 11.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.2,
+            "wind_degree": 359,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 87,
+            "cloud": 36
+          },
+          {
+            "time_epoch": 1697612400,
+            "time": "2023-10-18 01:00",
+            "temp_c": 11.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 6.5,
+            "wind_degree": 350,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 35
+          },
+          {
+            "time_epoch": 1697616000,
+            "time": "2023-10-18 02:00",
+            "temp_c": 11.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 7.6,
+            "wind_degree": 344,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 89,
+            "cloud": 47
+          },
+          {
+            "time_epoch": 1697619600,
+            "time": "2023-10-18 03:00",
+            "temp_c": 10.7,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 7.6,
+            "wind_degree": 348,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 90,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697623200,
+            "time": "2023-10-18 04:00",
+            "temp_c": 10.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 6.5,
+            "wind_degree": 351,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 87,
+            "cloud": 48
+          },
+          {
+            "time_epoch": 1697626800,
+            "time": "2023-10-18 05:00",
+            "temp_c": 10.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 6.5,
+            "wind_degree": 338,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 87,
+            "cloud": 40
+          },
+          {
+            "time_epoch": 1697630400,
+            "time": "2023-10-18 06:00",
+            "temp_c": 10.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 6.8,
+            "wind_degree": 346,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 87,
+            "cloud": 33
+          },
+          {
+            "time_epoch": 1697634000,
+            "time": "2023-10-18 07:00",
+            "temp_c": 10.5,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 6.1,
+            "wind_degree": 349,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 85,
+            "cloud": 22
+          },
+          {
+            "time_epoch": 1697637600,
+            "time": "2023-10-18 08:00",
+            "temp_c": 10.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 338,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 81,
+            "cloud": 15
+          },
+          {
+            "time_epoch": 1697641200,
+            "time": "2023-10-18 09:00",
+            "temp_c": 14.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 347,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 70,
+            "cloud": 12
+          },
+          {
+            "time_epoch": 1697644800,
+            "time": "2023-10-18 10:00",
+            "temp_c": 17.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 4,
+            "wind_degree": 357,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 59,
+            "cloud": 10
+          },
+          {
+            "time_epoch": 1697648400,
+            "time": "2023-10-18 11:00",
+            "temp_c": 19.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 1.4,
+            "wind_degree": 11,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 51,
+            "cloud": 11
+          },
+          {
+            "time_epoch": 1697652000,
+            "time": "2023-10-18 12:00",
+            "temp_c": 21.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 1.4,
+            "wind_degree": 122,
+            "wind_dir": "ESE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 47,
+            "cloud": 11
+          },
+          {
+            "time_epoch": 1697655600,
+            "time": "2023-10-18 13:00",
+            "temp_c": 22.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 4,
+            "wind_degree": 161,
+            "wind_dir": "SSE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 45,
+            "cloud": 12
+          },
+          {
+            "time_epoch": 1697659200,
+            "time": "2023-10-18 14:00",
+            "temp_c": 23.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.4,
+            "wind_degree": 158,
+            "wind_dir": "SSE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 44,
+            "cloud": 13
+          },
+          {
+            "time_epoch": 1697662800,
+            "time": "2023-10-18 15:00",
+            "temp_c": 23,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 150,
+            "wind_dir": "SSE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 44,
+            "cloud": 14
+          },
+          {
+            "time_epoch": 1697666400,
+            "time": "2023-10-18 16:00",
+            "temp_c": 22.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.4,
+            "wind_degree": 149,
+            "wind_dir": "SSE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 47,
+            "cloud": 15
+          },
+          {
+            "time_epoch": 1697670000,
+            "time": "2023-10-18 17:00",
+            "temp_c": 22.4,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 4,
+            "wind_degree": 136,
+            "wind_dir": "SE",
+            "precip_mm": 0.01,
+            "precip_in": 0,
+            "humidity": 50,
+            "cloud": 89
+          },
+          {
+            "time_epoch": 1697673600,
+            "time": "2023-10-18 18:00",
+            "temp_c": 21.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 4,
+            "wind_degree": 135,
+            "wind_dir": "SE",
+            "precip_mm": 0.02,
+            "precip_in": 0,
+            "humidity": 58,
+            "cloud": 87
+          },
+          {
+            "time_epoch": 1697677200,
+            "time": "2023-10-18 19:00",
+            "temp_c": 18.3,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 4.7,
+            "wind_degree": 94,
+            "wind_dir": "E",
+            "precip_mm": 0.02,
+            "precip_in": 0,
+            "humidity": 67,
+            "cloud": 72
+          },
+          {
+            "time_epoch": 1697680800,
+            "time": "2023-10-18 20:00",
+            "temp_c": 17,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 76,
+            "wind_dir": "ENE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 73,
+            "cloud": 22
+          },
+          {
+            "time_epoch": 1697684400,
+            "time": "2023-10-18 21:00",
+            "temp_c": 15.6,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.4,
+            "wind_degree": 59,
+            "wind_dir": "ENE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 81,
+            "cloud": 24
+          },
+          {
+            "time_epoch": 1697688000,
+            "time": "2023-10-18 22:00",
+            "temp_c": 15,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 5,
+            "wind_degree": 40,
+            "wind_dir": "NE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 86,
+            "cloud": 25
+          },
+          {
+            "time_epoch": 1697691600,
+            "time": "2023-10-18 23:00",
+            "temp_c": 14.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 4,
+            "wind_degree": 29,
+            "wind_dir": "NNE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 88,
+            "cloud": 23
+          }
+        ]
+      },
+      {
+        "date": "2023-10-19",
+        "date_epoch": 1697673600,
+        "day": {
+          "maxtemp_c": 24.7,
+          "mintemp_c": 10.9,
+          "maxwind_kph": 5.8,
+          "totalprecip_mm": 4.78,
+          "totalprecip_in": 0.19,
+          "totalsnow_cm": 0,
+          "daily_will_it_rain": 1,
+          "daily_chance_of_rain": 87,
+          "daily_will_it_snow": 0,
+          "daily_chance_of_snow": 0,
+          "condition": {
+            "text": "Lluvia  moderada a intervalos",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+            "code": 1063
+          }
+        },
+        "astro": {
+          "sunrise": "07:21 AM",
+          "sunset": "07:03 PM",
+          "moonrise": "11:51 AM",
+          "moonset": "11:00 PM",
+          "moon_phase": "Waxing Crescent",
+          "moon_illumination": "18",
+          "is_moon_up": 1,
+          "is_sun_up": 1
+        },
+        "hour": [
+          {
+            "time_epoch": 1697695200,
+            "time": "2023-10-19 00:00",
+            "temp_c": 13.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 3.6,
+            "wind_degree": 9,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 89,
+            "cloud": 27
+          },
+          {
+            "time_epoch": 1697698800,
+            "time": "2023-10-19 01:00",
+            "temp_c": 13.3,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4,
+            "wind_degree": 0,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 90,
+            "cloud": 31
+          },
+          {
+            "time_epoch": 1697702400,
+            "time": "2023-10-19 02:00",
+            "temp_c": 12.8,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4,
+            "wind_degree": 345,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 90,
+            "cloud": 34
+          },
+          {
+            "time_epoch": 1697706000,
+            "time": "2023-10-19 03:00",
+            "temp_c": 12.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4.3,
+            "wind_degree": 326,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 91,
+            "cloud": 39
+          },
+          {
+            "time_epoch": 1697709600,
+            "time": "2023-10-19 04:00",
+            "temp_c": 11.4,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 5,
+            "wind_degree": 329,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 91,
+            "cloud": 46
+          },
+          {
+            "time_epoch": 1697713200,
+            "time": "2023-10-19 05:00",
+            "temp_c": 11,
+            "is_day": 0,
+            "condition": {
+              "text": "Despejado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 349,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 91,
+            "cloud": 19
+          },
+          {
+            "time_epoch": 1697716800,
+            "time": "2023-10-19 06:00",
+            "temp_c": 10.9,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4.7,
+            "wind_degree": 350,
+            "wind_dir": "N",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 91,
+            "cloud": 44
+          },
+          {
+            "time_epoch": 1697720400,
+            "time": "2023-10-19 07:00",
+            "temp_c": 11,
+            "is_day": 0,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4.3,
+            "wind_degree": 334,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 91,
+            "cloud": 34
+          },
+          {
+            "time_epoch": 1697724000,
+            "time": "2023-10-19 08:00",
+            "temp_c": 12,
+            "is_day": 1,
+            "condition": {
+              "text": "Parcialmente nublado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": 1003
+            },
+            "wind_kph": 4.3,
+            "wind_degree": 334,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 87,
+            "cloud": 27
+          },
+          {
+            "time_epoch": 1697727600,
+            "time": "2023-10-19 09:00",
+            "temp_c": 14.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 3.2,
+            "wind_degree": 324,
+            "wind_dir": "NW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 76,
+            "cloud": 19
+          },
+          {
+            "time_epoch": 1697731200,
+            "time": "2023-10-19 10:00",
+            "temp_c": 17.6,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 2.9,
+            "wind_degree": 329,
+            "wind_dir": "NNW",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 68,
+            "cloud": 13
+          },
+          {
+            "time_epoch": 1697734800,
+            "time": "2023-10-19 11:00",
+            "temp_c": 19.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 0.7,
+            "wind_degree": 139,
+            "wind_dir": "SE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 60,
+            "cloud": 13
+          },
+          {
+            "time_epoch": 1697738400,
+            "time": "2023-10-19 12:00",
+            "temp_c": 22.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Soleado",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+              "code": 1000
+            },
+            "wind_kph": 5,
+            "wind_degree": 162,
+            "wind_dir": "SSE",
+            "precip_mm": 0,
+            "precip_in": 0,
+            "humidity": 55,
+            "cloud": 20
+          },
+          {
+            "time_epoch": 1697742000,
+            "time": "2023-10-19 13:00",
+            "temp_c": 24.2,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 5,
+            "wind_degree": 171,
+            "wind_dir": "S",
+            "precip_mm": 0.14,
+            "precip_in": 0.01,
+            "humidity": 53,
+            "cloud": 70
+          },
+          {
+            "time_epoch": 1697745600,
+            "time": "2023-10-19 14:00",
+            "temp_c": 24.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 5.8,
+            "wind_degree": 165,
+            "wind_dir": "SSE",
+            "precip_mm": 0.25,
+            "precip_in": 0.01,
+            "humidity": 52,
+            "cloud": 85
+          },
+          {
+            "time_epoch": 1697749200,
+            "time": "2023-10-19 15:00",
+            "temp_c": 24.7,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 5.4,
+            "wind_degree": 161,
+            "wind_dir": "SSE",
+            "precip_mm": 0.4,
+            "precip_in": 0.02,
+            "humidity": 53,
+            "cloud": 77
+          },
+          {
+            "time_epoch": 1697752800,
+            "time": "2023-10-19 16:00",
+            "temp_c": 24.1,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 4.7,
+            "wind_degree": 177,
+            "wind_dir": "S",
+            "precip_mm": 0.53,
+            "precip_in": 0.02,
+            "humidity": 57,
+            "cloud": 81
+          },
+          {
+            "time_epoch": 1697756400,
+            "time": "2023-10-19 17:00",
+            "temp_c": 22.9,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 3.6,
+            "wind_degree": 197,
+            "wind_dir": "SSW",
+            "precip_mm": 0.72,
+            "precip_in": 0.03,
+            "humidity": 62,
+            "cloud": 72
+          },
+          {
+            "time_epoch": 1697760000,
+            "time": "2023-10-19 18:00",
+            "temp_c": 20.5,
+            "is_day": 1,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+              "code": 1063
+            },
+            "wind_kph": 1.4,
+            "wind_degree": 177,
+            "wind_dir": "S",
+            "precip_mm": 0.67,
+            "precip_in": 0.03,
+            "humidity": 72,
+            "cloud": 88
+          },
+          {
+            "time_epoch": 1697763600,
+            "time": "2023-10-19 19:00",
+            "temp_c": 18.8,
+            "is_day": 1,
+            "condition": {
+              "text": "Ligeras precipitaciones",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/353.png",
+              "code": 1240
+            },
+            "wind_kph": 4,
+            "wind_degree": 134,
+            "wind_dir": "SE",
+            "precip_mm": 0.89,
+            "precip_in": 0.04,
+            "humidity": 78,
+            "cloud": 71
+          },
+          {
+            "time_epoch": 1697767200,
+            "time": "2023-10-19 20:00",
+            "temp_c": 18.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Ligeras precipitaciones",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+              "code": 1240
+            },
+            "wind_kph": 4.3,
+            "wind_degree": 129,
+            "wind_dir": "SE",
+            "precip_mm": 0.5,
+            "precip_in": 0.02,
+            "humidity": 82,
+            "cloud": 53
+          },
+          {
+            "time_epoch": 1697770800,
+            "time": "2023-10-19 21:00",
+            "temp_c": 17.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Ligeras precipitaciones",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+              "code": 1240
+            },
+            "wind_kph": 3.2,
+            "wind_degree": 131,
+            "wind_dir": "SE",
+            "precip_mm": 0.3,
+            "precip_in": 0.01,
+            "humidity": 86,
+            "cloud": 64
+          },
+          {
+            "time_epoch": 1697774400,
+            "time": "2023-10-19 22:00",
+            "temp_c": 16.1,
+            "is_day": 0,
+            "condition": {
+              "text": "Lluvia  moderada a intervalos",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/176.png",
+              "code": 1063
+            },
+            "wind_kph": 4,
+            "wind_degree": 128,
+            "wind_dir": "SE",
+            "precip_mm": 0.14,
+            "precip_in": 0.01,
+            "humidity": 89,
+            "cloud": 86
+          },
+          {
+            "time_epoch": 1697778000,
+            "time": "2023-10-19 23:00",
+            "temp_c": 16.2,
+            "is_day": 0,
+            "condition": {
+              "text": "Ligeras precipitaciones",
+              "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+              "code": 1240
+            },
+            "wind_kph": 2.2,
+            "wind_degree": 123,
+            "wind_dir": "ESE",
+            "precip_mm": 0.23,
+            "precip_in": 0.01,
+            "humidity": 90,
+            "cloud": 90
+          }
+        ]
+      }
+    ]
+  }
+}
