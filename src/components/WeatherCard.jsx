@@ -14,8 +14,8 @@ function WeatherCard({weather}) {
     const humidity = data.current.humidity;
     return (
     <>
-        <article className="w-full h-full p-4 lg:px-8">
-          <h3 className="text-xl lg:pb-4">{location}, {region}, {country}</h3>
+        <article className="w-full h-full">
+          <h3 className="text-xl text-left">{location}, {region}, {country}</h3>
           <section className="flex flex-row justify-center items-center gap-4">
             <h2 className="text-6xl lg:text-9xl font-bold lg:py-4">{temp} °C</h2>
             <article className="flex flex-col justify-center items-center gap-1">
