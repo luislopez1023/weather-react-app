@@ -1,67 +1,51 @@
 import data from "./data/response.json"
 import WeatherCard from "./components/WeatherCard";
-import DailyForecast from "./components/DailyForecast";
+/** Pendiente agregar DailyForecast,jsx */
 import HourlyForecast from "./components/HourlyForecast";
-
+import { useState, useEffect } from "react";
+import Loader from "./components/Loader";
 
 function App() {
-  /** Extrae la hora actual */
-  const currentHour = data.location.localtime_epoch;
-  const hoursWeather = [];
-  function getHoursLeft() {
-    for(let i = 0; i < 24; i++){
-      if(currentHour < data.forecast.forecastday[0].hour[i].time_epoch){
-        hoursWeather.push(data.forecast.forecastday[0].hour[i])
-      }
-    }
+  const [city, setCity] = useState('');
+  const [data, setData] = useState("");
+  const [loading, isLoading] = useState(false);
+  const [error, setError] = useState('')
+
+  const API_KEY = "993ba42994fe47b4a1e191246232010";
+  function handleSubmit(event) {
+    isLoading(true);
+    setError("");
+    setData("")
+    event.preventDefault();
+    getWeather(API_KEY);
   }
-  getHoursLeft();
+  function getWeather(API_KEY) {
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7&lang=es`)
+      .then(resolve => resolve.json())
+      .then(res => {
+        if(res.error) {
+          setError(res.error.message)
+        }
+        else {
+          setData(res)
+        }})
+      .catch(err => setError(err))
+      .finally(()=> isLoading(false))
+    
+  }
   return (
     <>
       <header className="flex flex-col justify-center items-center gap-4 bg-base-100 w-full lg:w-3/4 text-center p-4 rounded-lg shadow-lg">
         <h1 className="text-2xl">Web del clima</h1>
-        <form className="join join-horizontal w-full lg:w-3/4">
-          <input className="join-item input p-2 bg-base-200" placeholder="Oaxaca, Mexico, Cancún ..." type="text" required />
-          <button className="join-item btn btn-primary btn-outline" type="submit">Buscar</button>
+        <form onSubmit={handleSubmit} className="w-full lg:w-3/4 flex flex-row gap-1 justify-center items-center">
+          <input value={city} onChange={(e) => setCity(e.target.value)} className="input w-1/2 p-2 bg-base-200" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
+          <button className="btn btn-primary btn-outline" type="submit">Buscar</button>
         </form>
       </header>
-      <section className="bg-base-100 w-max rounded-lg shadow-lg lg:w-3/4 flex flex-col justify-center items-center h-full gap-4 p-4">
-        {data.location && <WeatherCard weather={data} />}
-        <article className="box-border flex flex-row gap-4 w-max justify-center items-center">
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[0]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[1]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[2]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[3]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[4]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[5]} />}
-          {data.forecast && <DailyForecast weather={data.forecast.forecastday[6]} />}
-        </article>
-      </section>
-      <section className="bg-base-100 w-max rounded-lg shadow-lg lg:w-3/4 p-4">
-        <h2>El tiempo hoy</h2>
-        <section className="overflow-x-auto">
-          <table className="table table-zebra">
-            {/* Head */}
-            <thead>
-              <tr>
-                <th>Hora</th>
-                <th>Temperatura</th>
-                <th>Condicion</th>
-                <th>Viento</th>
-                <th>Humedad</th>
-                <th>Nubes</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data.forecast.forecastday &&
-              hoursWeather.map((item)=>{
-                <HourlyForecast weather={item} />
-              })
-              }
-            </tbody>
-          </table>
-        </section>
-      </section>
+      {error ? <p>{error}</p> : ""}
+      {loading && <Loader />}
+      {data.location ? <WeatherCard weather={data}/> : ""}
+      {data.forecast ? <HourlyForecast clima={data.forecast.forecastday[0].hour} currentHour={data.location.localtime_epoch}/> : ""}
     </>
   )
 }
