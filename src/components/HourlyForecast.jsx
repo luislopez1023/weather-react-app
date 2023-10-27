@@ -1,22 +1,14 @@
+
 function HourlyForecast({clima, currentHour}) {
-  const data = clima;
   /** Extrae las horas restantes del dia para mostrar el clima de ellas */
-  const hoursWeather = [];
-  function getHoursLeft() {
-    for(let i = 0; i < 24; i++){
-      if(currentHour <= data[i].time_epoch){
-        hoursWeather.push(data[i])
-      }
-    }
-  }
-  getHoursLeft();
-  const listLeftHourWeather = hoursWeather.map(item => 
-    <tr key={item.time_epoch}>
-      <td className="uppercase">
-        {item.time}
-      </td>
+  const hours = clima;
+  const hoursWeather = hours.filter((hour)=> hour.time_epoch >= currentHour);
+  const listLeftHourWeather = hoursWeather.map(item =>
+    <tr key={item.time_epoch} >
+      <td>{item.time}</td>
       <td>{item.temp_c}°</td>
       <td>{item.condition.text}</td>
+      <td className="hidden sm:table-cell">{item.cloud}%</td>
     </tr>
     );
   return (
@@ -26,9 +18,10 @@ function HourlyForecast({clima, currentHour}) {
         {/* Head */}
         <thead>
           <tr>
-            <th>Hora</th>
+            <th className="w-10 sm:w-max">Hora</th>
             <th>Temp.</th>
-            <th className="w-10">Condición</th>
+            <th className="w-10 sm:w-max">Condición</th>
+            <th className="hidden sm:table-cell">Nubosidad</th>
           </tr>
         </thead>
         <tbody>
