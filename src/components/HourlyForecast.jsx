@@ -16,7 +16,7 @@ function HourlyForecast({clima, currentHour}) {
     </tr>
     );
   return (
-    <section className="mx-auto bg-base-100 w-max rounded-lg shadow-lg p-4">
+    <section className="mx-auto bg-base-200 w-max rounded-lg shadow-lg p-4">
       <h2>El tiempo hoy</h2>
       <table className="table">
         {/* Head */}

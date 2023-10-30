@@ -13,10 +13,10 @@ function WeatherCard({weather}) {
     const humidity = weather.current.humidity;
     return (
     <>
-        <article className="flex flex-col justify-center items-center gap-4 bg-base-100 rounded-lg shadow-lg p-4">
+        <article className="flex flex-col justify-center items-center gap-4 bg-base-200 rounded-lg shadow-lg p-4">
           <h3 className="text-xl">{location}, {region}, {country}</h3>
           <section className="flex flex-col justify-center items-center gap-4">
-            <h2 className="text-6xl lg:text-8xl font-bold lg:py-4 text-primary">{temp}°</h2>
+            <h2 className="text-6xl lg:text-8xl font-bold lg:py-4 text-info">{temp}°</h2>
             <article className="flex flex-col justify-center items-center gap-1">
               <div className="flex flex-row justify-start items-center gap-1">
                 <img className="w-6 h-6" src={wind} alt="Icono velocidad del viento" />

@@ -7,7 +7,7 @@ function DailyItem({data, text}) {
     const precip = data.day.totalprecip_mm;
     const img = `https:${data.day.condition.icon}`
   return (
-    <section className="w-44 bg-base-100 rounded-lg shadow-lg p-4 flex flex-col items-center justify-center">
+    <section className="bg-base-200 w-44 rounded-lg shadow-lg p-4 flex flex-col items-center justify-center">
         <p>{text ? text : date.toUpperCase()}</p>
         <img src={img} alt={condition} />
         <p>{temp}°</p>
