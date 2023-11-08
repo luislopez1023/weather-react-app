@@ -3,8 +3,9 @@ import WeatherCard from "./components/WeatherCard";
 /** Pendiente agregar DailyForecast,jsx */
 import DailyForecast from "./components/DailyForecast";
 import HourlyForecast from "./components/HourlyForecast";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Loader from "./components/Loader";
+import Error from "./components/Error";
 
 function App() {
   const [city, setCity] = useState('');
@@ -29,6 +30,7 @@ function App() {
         }
         else {
           setData(res)
+          console.log(res)
         }})
       .catch(err => setError(err))
       .finally(()=> isLoading(false))
@@ -36,17 +38,14 @@ function App() {
   }
   return (
     <>
-      <header className="flex flex-col justify-center items-center gap-4 bg-base-200 w-full lg:w-3/4 text-center p-4 rounded-lg shadow-lg">
+      <header className="flex flex-col justify-center items-center gap-4 bg-gray-2 w-full lg:w-3/4 text-center p-4 rounded-lg shadow-lg">
         <h1 className="text-2xl">Web del clima</h1>
-        <form onSubmit={handleSubmit} className="w-full lg:w-3/4 flex flex-row justify-center items-center join">
-          <input value={city} onChange={(e) => setCity(e.target.value)} className="join-item input input-info w-1/2 p-2 bg-base-200" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
-          <button className="btn btn-info btn-outline join-item" type="submit">Buscar</button>
+        <form onSubmit={handleSubmit} className="w-full flex flex-row place-content-center">
+          <input value={city} onChange={(e) => setCity(e.target.value)} className="input input-solid p-2 rounded-r-none rounded-l-2xl" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
+          <button className="btn btn-primary rounded-l-none rounded-r-2xl" type="submit">Buscar</button>
         </form>
       </header>
-      {error ? 
-      <section className="h-[50vh] flex flex-col place-content-center">
-        <p className="text-error font-bold">{error}</p>
-      </section> : ""}
+      {error ? <Error error={error} /> : ""}
       {loading && <Loader />}
       {data.current ? <WeatherCard weather={data}/> : ""}
       {data.forecast ? <DailyForecast weather={data.forecast.forecastday}/> : ""}
