@@ -1,7 +1,5 @@
-import data from "./data/response.json"
 import WeatherCard from "./components/WeatherCard";
 /** Pendiente agregar DailyForecast,jsx */
-import DailyForecast from "./components/DailyForecast";
 import HourlyForecast from "./components/HourlyForecast";
 import { useState } from "react";
 import Loader from "./components/Loader";
@@ -30,7 +28,6 @@ function App() {
         }
         else {
           setData(res)
-          console.log(res)
         }})
       .catch(err => setError(err))
       .finally(()=> isLoading(false))
@@ -38,18 +35,34 @@ function App() {
   }
   return (
     <>
-      <header className="flex flex-col justify-center items-center gap-4 bg-gray-2 w-full lg:w-3/4 text-center p-4 rounded-lg shadow-lg">
+      <header className="flex flex-col justify-center items-center gap-4 bg-base-100 w-full sm:w-3/4 text-center p-4 rounded-lg shadow-lg">
         <h1 className="text-2xl">Web del clima</h1>
-        <form onSubmit={handleSubmit} className="w-full flex flex-row place-content-center">
-          <input value={city} onChange={(e) => setCity(e.target.value)} className="input input-solid p-2 rounded-r-none rounded-l-2xl" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
-          <button className="btn btn-primary rounded-l-none rounded-r-2xl" type="submit">Buscar</button>
+        <form id="weather_app" onSubmit={handleSubmit} className="w-full flex flex-row place-content-center join">
+          <input name="weather_app" value={city} onChange={(e) => setCity(e.target.value)} className="input input-sm join-item w-1/2" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
+          <button name="weather_app" className="btn btn-primary btn-sm join-item" type="submit">Buscar</button>
         </form>
       </header>
       {error ? <Error error={error} /> : ""}
       {loading && <Loader />}
-      {data.current ? <WeatherCard weather={data}/> : ""}
-      {data.forecast ? <DailyForecast weather={data.forecast.forecastday}/> : ""}
-      {data.forecast ? <HourlyForecast clima={data.forecast.forecastday[0].hour} currentHour={data.location.localtime_epoch}/> : ""}
+      {data.current ? <WeatherCard
+        location={data.location.name}
+        region={data.location.region}
+        country={data.location.country}
+        time={data.location.localtime_epoch}
+        temp={data.current.temp_c}
+        condition={data.current.condition.text}
+        viento={data.current.wind_kph}
+        humidity={data.current.humidity}
+        cloud={data.current.cloud}
+        precip={data.current.precip_mm}
+      />
+       : ""}
+
+      {data.forecast ? <HourlyForecast
+        clima={data.forecast.forecastday[0].hour} 
+        currentHour={data.location.localtime_epoch}
+      />
+       : ""}
     </>
   )
 }

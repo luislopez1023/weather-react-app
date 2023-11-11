@@ -7,6 +7,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require('rippleui')],
+  plugins: [require('daisyui')],
 }
 
