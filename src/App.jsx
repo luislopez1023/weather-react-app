@@ -38,7 +38,7 @@ function App() {
       <header className="flex flex-col justify-center items-center gap-4 bg-base-100 w-full sm:w-3/4 text-center p-4 rounded-lg shadow-lg">
         <h1 className="text-2xl">Web del clima</h1>
         <form id="weather_app" onSubmit={handleSubmit} className="w-full flex flex-row place-content-center join">
-          <input name="weather_app" value={city} onChange={(e) => setCity(e.target.value)} className="input input-sm join-item w-1/2" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
+          <input name="weather_app" value={city} onChange={(e) => setCity(e.target.value)} className="input input-sm join-item w-1/2 bg-base-200" placeholder="Oaxaca, Mexico, Cancún ..." type="search" required />
           <button name="weather_app" className="btn btn-primary btn-sm join-item" type="submit">Buscar</button>
         </form>
       </header>
